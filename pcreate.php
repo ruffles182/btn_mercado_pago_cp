@@ -23,7 +23,7 @@ try {
         $items[] = [
             'title' => $item['title'],
             'quantity' => $item['quantity'],
-            'unit_price' => $item['price'] / 100 // Shopify prices are in cents
+            'unit_price' => $item['price'] / 100
         ];
     }
 
