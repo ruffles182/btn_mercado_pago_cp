@@ -290,8 +290,12 @@
         </label>
       </div>
     </div>
-
+    {%- comment -%} 
+      Modificación r84 /////////////////////////////////////////////////////////////////////
+        -> Cambio de color del botón de añadir a carrito #d99055
+    {%- endcomment -%}
     <button
+      style = "background-color: #d99055;"
       class="
         product-form--atc-button
         {% if selected_variant and selected_variant.available == false %}
