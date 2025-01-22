@@ -273,11 +273,8 @@
                     -> creación de un div tipo flex para alinear verticalmente el precio y la cadena "Más IVA"
                 {%- endcomment -%}
 
-                <div style= "display: flex;
-                            flex-direction: row;
-                            gap: 10px;
-                            align-items: center;">
-                  <div>
+                <div id= "container-price-iva">
+                  <div id = "container-price">
                     {%
                       render 'product-badge',
                       product: product,
@@ -312,9 +309,8 @@
     
                     <form data-payment-terms-target style="display: none;"></form>
                   </div>
-                  <div>
-                    <p style = "font-weight: bold;
-                                font-size: 1.2em;">
+                  <div id= "container-iva">
+                    <p>
                       Más IVA
                     </p>
                   </div>
